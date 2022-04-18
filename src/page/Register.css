@@ -1,0 +1,57 @@
+.register {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  /* flex: 1; */
+  height: 790px;
+}
+
+.register .left {
+  background-color: blanchedalmond;
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.left .formRegis {
+    background-color: #FFFF;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 30px;
+    
+}
+
+.formRegis .inputData {
+    /* background-color: burlywood; */
+
+    margin: 5px;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #a4c3c4;
+    outline-color: #0A9396;
+    display: flex;
+    justify-content: center;
+   
+}
+.formRegis .submitRegis{
+    background-color: #0A9396;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 82px;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 3px 2px;
+}
+.register .right {
+  background-color: chocolate;
+  flex: 0.5;
+}
